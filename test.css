@@ -1,0 +1,108 @@
+* {
+
+	padding: 0;
+	margin: 0;
+
+}
+
+.main {
+
+	height: 100%;
+	width: 75%;
+	position: fixed;
+
+	}
+
+	.bar {
+		height: 25%;
+		width: 100%;
+		background-color: gray;
+
+		}
+
+		.top {
+
+			width: 100%;
+			height: 65%;
+
+			}
+
+		.bottom {
+
+			width: 100%;
+			height: 45%;
+
+		}
+
+	.content {
+
+		width: 100%;
+		height: 75%;
+		background-color: orange;		
+
+		}
+		
+		.content .images {
+
+			width: 100%;
+			height: 100%;
+
+		}
+
+		.images img {
+
+			max-width: 100%;
+			object-fit: contain;
+
+		}
+
+
+
+.news {
+	
+	background-color: red;
+	position: fixed;
+	left: 75%;
+	float: right;
+	height: 100%;
+	width: 25%;
+
+	}
+
+	.post {
+
+		background-color: blue;
+
+		}
+
+		.images {
+			
+			background-color: yellow;
+			float: left;
+			width: 35%;
+
+		}
+
+		.text {
+
+			background-color: green;
+			float: right;
+			width: 65%;
+			height: 12.5%;
+
+		}
+
+		.post img{
+			
+			margin: auto;
+			max-width: 100%;
+			object-fit: fill;
+			height: 12.5%;
+		}
+
+		.post h6{
+
+			vertical-align: text-bottom;
+			float: right;
+
+		}
